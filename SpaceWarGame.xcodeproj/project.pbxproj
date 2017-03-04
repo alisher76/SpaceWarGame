@@ -15,6 +15,11 @@
 		AC0850DB1E6B44F900FADF6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0850D91E6B44F900FADF6F /* Main.storyboard */; };
 		AC0850DD1E6B44F900FADF6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC0850DC1E6B44F900FADF6F /* Assets.xcassets */; };
 		AC0850E01E6B44F900FADF6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0850DE1E6B44F900FADF6F /* LaunchScreen.storyboard */; };
+		AC0850E91E6B454900FADF6F /* explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC0850E71E6B454900FADF6F /* explosion.mp3 */; };
+		AC0850EA1E6B454900FADF6F /* torpedo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC0850E81E6B454900FADF6F /* torpedo.mp3 */; };
+		AC0850EF1E6B45D500FADF6F /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = AC0850ED1E6B45D500FADF6F /* Explosion.sks */; };
+		AC0850F01E6B45D500FADF6F /* Starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = AC0850EE1E6B45D500FADF6F /* Starfield.sks */; };
+		AC0850F21E6B45F200FADF6F /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0850F11E6B45F200FADF6F /* spark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,11 @@
 		AC0850DC1E6B44F900FADF6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC0850DF1E6B44F900FADF6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC0850E11E6B44F900FADF6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC0850E71E6B454900FADF6F /* explosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = explosion.mp3; sourceTree = "<group>"; };
+		AC0850E81E6B454900FADF6F /* torpedo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = torpedo.mp3; sourceTree = "<group>"; };
+		AC0850ED1E6B45D500FADF6F /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		AC0850EE1E6B45D500FADF6F /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Starfield.sks; sourceTree = "<group>"; };
+		AC0850F11E6B45F200FADF6F /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +73,15 @@
 				AC0850CF1E6B44F900FADF6F /* AppDelegate.swift */,
 				AC0850D11E6B44F900FADF6F /* GameScene.sks */,
 				AC0850D31E6B44F900FADF6F /* Actions.sks */,
+				AC0850ED1E6B45D500FADF6F /* Explosion.sks */,
+				AC0850EE1E6B45D500FADF6F /* Starfield.sks */,
+				AC0850F11E6B45F200FADF6F /* spark.png */,
 				AC0850D51E6B44F900FADF6F /* GameScene.swift */,
 				AC0850D71E6B44F900FADF6F /* GameViewController.swift */,
 				AC0850D91E6B44F900FADF6F /* Main.storyboard */,
 				AC0850DC1E6B44F900FADF6F /* Assets.xcassets */,
+				AC0850E71E6B454900FADF6F /* explosion.mp3 */,
+				AC0850E81E6B454900FADF6F /* torpedo.mp3 */,
 				AC0850DE1E6B44F900FADF6F /* LaunchScreen.storyboard */,
 				AC0850E11E6B44F900FADF6F /* Info.plist */,
 			);
@@ -133,9 +148,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC0850EA1E6B454900FADF6F /* torpedo.mp3 in Resources */,
+				AC0850E91E6B454900FADF6F /* explosion.mp3 in Resources */,
 				AC0850DB1E6B44F900FADF6F /* Main.storyboard in Resources */,
 				AC0850D21E6B44F900FADF6F /* GameScene.sks in Resources */,
 				AC0850DD1E6B44F900FADF6F /* Assets.xcassets in Resources */,
+				AC0850F21E6B45F200FADF6F /* spark.png in Resources */,
+				AC0850EF1E6B45D500FADF6F /* Explosion.sks in Resources */,
+				AC0850F01E6B45D500FADF6F /* Starfield.sks in Resources */,
 				AC0850E01E6B44F900FADF6F /* LaunchScreen.storyboard in Resources */,
 				AC0850D41E6B44F900FADF6F /* Actions.sks in Resources */,
 			);
