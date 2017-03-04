@@ -332,6 +332,7 @@
 				AC0850E61E6B44F900FADF6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -43,8 +43,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         starfield.zPosition = -1
         
         player = SKSpriteNode(imageNamed: "shuttle")
-        
-        player.position = CGPoint(x: self.frame.size.width / 2, y: player.size.height / 2 + 20)
+        player.position = CGPoint(x: self.frame.size.width / 1.5, y: player.size.height / 2 + 40)
         
         self.addChild(player)
         
